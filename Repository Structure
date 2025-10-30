@@ -1,0 +1,44 @@
+farm-folder/
+├── 📄 package.json
+├── 📄 render.yaml
+├── 📄 .env.example
+├── 📄 README.md
+├── 📄 DEPLOYMENT_GUIDE.md
+├── backend/
+│   ├── 📄 package.json
+│   ├── 📄 server.js
+│   ├── 📄 .env
+│   ├── models/
+│   │   ├── 📄 User.js
+│   │   └── 📄 FarmData.js
+│   ├── routes/
+│   │   ├── 📄 auth.js
+│   │   ├── 📄 farmData.js
+│   │   ├── 📄 analytics.js
+│   │   └── 📄 users.js
+│   ├── middleware/
+│   │   └── 📄 auth.js
+│   └── utils/
+│       └── 📄 dataCorrection.js
+└── frontend/
+    ├── 📄 package.json
+    ├── 📄 vite.config.js
+    ├── 📄 index.html
+    ├── 📄 .env.production
+    ├── 📄 tailwind.config.js
+    ├── 📄 postcss.config.js
+    ├── src/
+    │   ├── 📄 main.jsx
+    │   ├── 📄 App.jsx
+    │   ├── 📄 index.css
+    │   ├── contexts/
+    │   │   └── 📄 AuthContext.jsx
+    │   ├── components/
+    │   │   └── Layout/
+    │   │       └── 📄 Navbar.jsx
+    │   └── pages/
+    │       ├── 📄 Dashboard.jsx
+    │       ├── 📄 FarmData.jsx
+    │       ├── 📄 Analytics.jsx
+    │       ├── 📄 Login.jsx
+    │       └── 📄 Register.jsx
